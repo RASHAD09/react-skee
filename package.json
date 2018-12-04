@@ -1,0 +1,28 @@
+{
+  "name": "react-skee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"watchify src/main.jsx -v -t [babelify --preset [react] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RASHAD09/react-skee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RASHAD09/react-skee/issues"
+  },
+  "homepage": "https://github.com/RASHAD09/react-skee#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^10.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "recat": "0.0.0",
+    "watchify": "^3.11.0"
+  }
+}
